@@ -1,6 +1,4 @@
-# Assessing PagSeguro's complaints at ReclameAqui and comparing with its stock perfomance :rage: :chart_with_upwards_trend: :rage: :chart_with_downwards_trend:
-
-:file_folder: Kaggle's Global Shark Attack (https://www.kaggle.com/teajay/global-shark-attacks/)
+# Assessing PagSeguro's complaints at ReclameAqui and comparing with its stock perfomance :rage:  :chart_with_downwards_trend: :chart_with_upwards_trend: :rage:
 
 Repository includes: 
 * Yahoo Finance's API integration
@@ -39,7 +37,7 @@ As we can surmise from the wordcloud:
 
 * Unfortunately, RA's website can only be scrapped using selenium, which slows down the overall process
 * Scraping process was divided into two consequent streams:
->* Stream 1: Selenium gathered all the complaint links of PagSeguro available at RA: ~50k links were then consolidated into .txt files (RA allows selenium to scrape 10 links per interaction)  
+>* **Stream 1**: Selenium gathered all the complaint links of PagSeguro available at RA: ~50k links were then consolidated into .txt files (RA allows selenium to scrape 10 links per interaction)  
 
->* Stream 2: Selenium then opened each complaint link to gather useful data for later parsing - more especifically: complaint title, body, status, date, city/state of the client
+>* **Stream 2**: Selenium then opened each complaint link to gather useful data for later parsing - more especifically: complaint title, body, status, date, city/state of the client
 
