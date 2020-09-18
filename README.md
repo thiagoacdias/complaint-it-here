@@ -17,7 +17,7 @@ However, **there is no enough evidence to correlate PagSeguro's share price to t
 
 * Image below illustrates main common terms in the complaint dataset, after normalizing for common stop words and non-insightful vocabulary:
 
-<img src="imgs/wordcloud.PNG">
+<img src="imgs/wordcloud.png">
 
 As we can surmise from the wordcloud:
 >* Most common expression "entrei em contato" suggest that clients turn to ReclameAqui after exhausting options to resolve with PagSeguro
